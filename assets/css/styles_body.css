@@ -1,0 +1,102 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+#content.container-fluid{
+	margin-top: auto;
+	position: relative;
+}
+.container{
+	width: 100%;
+	height: 500px;
+	margin-top: auto;
+	/*position: relative;*/
+}
+#my-mg.container{
+	width: 45%;
+	height: 30%;
+}
+
+#row-shelf.row .book {
+	padding: 15px 0 0 0;
+	margin: auto;
+	max-width: 200px;
+	max-height: 150px;
+}
+#row-shelf.row a:before { /* Just to give a little puddle of a shadow without adding another element */
+	content: '';
+	display: block;
+	width: 80%;
+	height: 1em;
+	background: rgba(0,0,0,.35);
+	border-radius: 50%;
+	position: absolute;
+	bottom:-10px;
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+	z-index:-5;
+}
+.shelf {
+	border-bottom: 30px solid #a5a5a5;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	top: -15px;
+	z-index: -10;
+	width:100%;
+	position: relative;
+}
+/*Example adding pseudo element to give shelf depth*/
+.shelf:after {
+	content: '';
+	background: #686767;
+	height: 20px;
+	width: calc(100% + 40px); /*IE9+*/
+	position: absolute;
+	top: 30px;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	margin: 0 -20px;
+}
+.row #row-shelf{
+	transform-origin: top left;
+	/*transform: perspective(1000px) rotateY(30deg) rotateZ(2deg) rotateX(0deg);*/
+}
+#row-shelf.row img{
+	transition: all .2s ease-in-out;
+}
+#row-shelf.row img:hover{
+	transform: scale(1.1);
+}
+#view-mg{
+	width: 100%;
+	padding: 10px;
+	background-color: #f0f0f0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#view-mg:-webkit-full-screen {
+	width: 200%;
+	height: 200%;
+}
+
+.half-rule {
+	margin-left: 0;
+	text-align: left;
+	width: 100%;
+	color: #0000FF;
+}
+#flipbook{
+	/*position:relative;*/
+	margin-top:10px;
+	/*width: 100%;*/
+	/*background-color: #962c58;*/
+}
+
+#fullscreen:fullscreen > #flipbook {
+	width: 75%;
+	height: 75%;
+	font-size: 200%;
+}
+#recommends-mg{
+
+}
+
