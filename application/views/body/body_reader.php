@@ -9,19 +9,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Profile</title>
-	<script src="<?php echo base_url('assets/js/jquery.min.js')?>" type="text/javascript"></script>
 
 	<link href="<?php echo base_url('assets/css/styles_body.css')?>" rel="stylesheet">
-	<link href="<?php echo base_url('assets/css/bootstrap.css');?>" rel="stylesheet">
-	<link href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-
-
-	<script src="<?php echo base_url('assets/turnjs4/lib/turn.js"')?>" type="text/javascript"></script>
-	<script src="<?php echo base_url('assets/js/Proper.js')?>" type="text/javascript"></script>
-	<script src="<?php echo base_url('assets/js/bootstrap.js')?>" type="text/javascript"></script>
-	<script src="<?php echo base_url('assets/js/bootstrap.bundle.js')?>" type="text/javascript"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/screenfull.js/3.3.2/screenfull.js"></script>
 
 </head>
 <body>
@@ -62,11 +51,11 @@
 						<div class="hard"> Turn.js msmsagaielmz/lknclwfw</div>
 						<div id="a1" class="hard"></div>
 						<script>
-							for(i=0;i<=10;i++){
-								document.write(' <div class="pg1"> ABC</div>');
+							for(i=0;i<=20;i++){
+								document.write('<div class="pg1"><object data="test.pdf" type="application/pdf" width="100" height="100">alt : <a href="aa.pdf">your.pdf</a></object></div>');
 							}
 						</script>
-						<div class="pg1"> </div>
+						<div class="pg1"> Page 1</div>
 						<div class="pg2"> Page 2 </div>
 						<div class="pg3"> Page 3 </div>
 						<div class="pg4"> Page 4 </div>
