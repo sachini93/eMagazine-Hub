@@ -1,15 +1,16 @@
-@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
 
 #content.container-fluid{
 	margin-top: auto;
 	position: relative;
 }
-/*.container{*/
-	/*width: 100%;*/
-	/*height: 500px;*/
-	/*margin-top: auto;*/
-	/*!*position: relative;*!*/
-/*}*/
+.container{
+	width: 100%;
+	height: 500px;
+	margin-top: auto;
+	/*position: relative;*/
+}
+
 #my-mg.container{
 	width: 45%;
 	margin-top: 10px;
@@ -88,12 +89,13 @@
 	height: 100%;
 }
 
-#flipbook-row.row{
-	display: inline-block;
+
+#flipbook-row{
+	/*display: inline-block;*/
 	position: absolute;
 	top: 0; left: 0;
 	width: 100%; height: 100%;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .half-rule {
@@ -106,10 +108,9 @@
 #flipbook{	
 	margin: 5px auto;
 }
-
-#recommends-mg.container{
-	width: 300px;
-	height:400px;
-
+#recommend_mg.container{
+	width: 100%;
+	height: 400px;
+	background-color: #f0f0f0;
 }
 

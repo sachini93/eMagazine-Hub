@@ -11,7 +11,7 @@
 	<title>Profile</title>
 	<script src="<?php echo base_url('assets/js/jquery.min.js')?>" type="text/javascript"></script>
 
-	<link href="<?php echo base_url('assets/css/styles_body.css');?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/styles_body.css')?>" rel="stylesheet">
 	<link href="<?php echo base_url('assets/css/bootstrap.css');?>" rel="stylesheet">
 	<link href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
@@ -49,7 +49,7 @@
 
 	<div class="col-1">
 		<div id="btn-full-screen" class="col-sm-1">
-			<button class="btn btn-info">
+			<button class="btn btn-info btn-lg">
 				<span class="glyphicon glyphicon-resize-full"></span>
 			</button>
 		</div>
@@ -57,8 +57,8 @@
 	<div class="col-20">
 		<div id="view-mg" class="container">
 				<div id="flipbook-row" class="row">
-					<div class="col"></div>
-					<div id="flipbook"class="col-9">
+					<div class="col-lg-1"></div>
+					<div id="flipbook"class="col-lg-10">
 						<div class="hard"> Turn.js msmsagaielmz/lknclwfw</div>
 						<div id="a1" class="hard"></div>
 						<script>
@@ -73,11 +73,11 @@
 						<div class="hard"></div>
 						<div class="hard"></div>
 					</div>
-					<div class="col">
+					<div class="col-lg-1">
 						advertising
 					</div>
 				</div>
-			</div>
+		</div>
 	</div>
 		<script type="text/javascript">
 			var height = $('#flipbook-row').height();
@@ -85,7 +85,7 @@
 //			alert(height);
 			$("#flipbook").turn({
 				width: 700,
-				height: height-30,
+				height: height-50,
 				gradients:true,
 				duration:1500,
 
@@ -100,17 +100,29 @@
 				}
 			});
 		</script>
-	</div>
 
 	<hr class="half-rule"/>
 
-	<div id="recommends-mg" class="container">
-		<div class="row">
-		<button>ABS</button>
+	<div id="recommend_mg" class="container">
+		<div id="" class="row">
+			<div class="col-5"></div>
+			<div class="col-1">
+			<button id="btn-add" class="btn btn-success btn-lg">
+				<span class="glyphicon glyphicon-plus"></span>
+			</button>
+			</div>
 		</div>
 
-		<div class="row"></div>
+		<div id="" class="row">
+			<div id="mg-slider" class="container">
+
+			</div>
+		</div>
 	</div>
+
+	</div>
+
+
 
 </div>
 </body>

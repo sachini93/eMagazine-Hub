@@ -9,10 +9,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Profile</title>
+	<script src="<?php echo base_url('assets/js/jquery.min.js')?>" type="text/javascript"></script>
+
 	<link href="<?php echo base_url('assets/css/styles_header.css');?>" rel="stylesheet">
 	<link href="<?php echo base_url('assets/css/bootstrap.css');?>" rel="stylesheet">
 	<link href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
-	<script src="<?php echo base_url('assets/js/jquery.min.js')?>" type="text/javascript"></script>
+
 	<script src="<?php echo base_url('assets/js/Proper.js')?>" type="text/javascript"></script>
 	<script src="<?php echo base_url('assets/js/bootstrap.js')?>" type="text/javascript"></script>
 	<script src="<?php echo base_url('assets/js/bootstrap.bundle.js')?>" type="text/javascript"></script>
