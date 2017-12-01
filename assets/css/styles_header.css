@@ -3,9 +3,9 @@
 	margin-left: 0px;
 	margin-right: 10px;
 	padding-top: 5px;
-	z-index: 2;
+	z-index: 300;
 	margin-top: 10px;
 }
-.row #header-nav{
+#header-nav.row{
 
 }

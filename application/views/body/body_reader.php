@@ -54,14 +54,15 @@
 			</button>
 		</div>
 	</div>
-	<div class="col-sm-20">
+	<div class="col-20">
 		<div id="view-mg" class="container">
-				<div class="row">
-					<div id="flipbook"class="col-sm-8">
+				<div id="flipbook-row" class="row">
+					<div class="col"></div>
+					<div id="flipbook"class="col-9">
 						<div class="hard"> Turn.js msmsagaielmz/lknclwfw</div>
 						<div id="a1" class="hard"></div>
 						<script>
-							for(i=0;i<=2;i++){
+							for(i=0;i<=10;i++){
 								document.write(' <div class="pg1"> ABC</div>');
 							}
 						</script>
@@ -72,17 +73,22 @@
 						<div class="hard"></div>
 						<div class="hard"></div>
 					</div>
-					<div class="col-sm-1">
+					<div class="col">
 						advertising
 					</div>
 				</div>
 			</div>
 	</div>
 		<script type="text/javascript">
+			var height = $('#flipbook-row').height();
+//			var width = $('#flipbook-row').width();
+//			alert(height);
 			$("#flipbook").turn({
 				width: 700,
-				height: 400,
+				height: height-30,
 				gradients:true,
+				duration:1500,
+
 			});
 			//$( "#a1" ).load( "./ex.html div#x");//try load from database
 		</script>
@@ -100,7 +106,7 @@
 
 	<div id="recommends-mg" class="container">
 		<div class="row">
-
+		<button>ABS</button>
 		</div>
 
 		<div class="row"></div>
