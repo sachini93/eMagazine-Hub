@@ -15,22 +15,24 @@
 </head>
 <body>
 <div id="content" class="container-fluid">
-	<div id="my-mg" class="container">
-		<div id="my-mg-info" class="row">
-			<div class="alert alert-warning row" role="alert">
-				<div class="col-md-7"><h3><span class="label label-primary">My magazines</span></h3></div>
-				<div class="col-md-2"><button class="btn btn-success btn-xs" type="button" style="margin-left:40px ">View more>></button></div>
+	<div id="my-mg-bg" class="container-fluid">
+		<div id="my-mg" class="container">
+			<div id="my-mg-info" class="row">
+				<div class="alert alert-warning row" role="alert">
+					<div class="col-md-7"><h3><span class="label label-primary">My magazines</span></h3></div>
+					<div class="col-md-2"><button class="btn btn-success btn-xs" type="button" style="margin-left:40px ">View more>></button></div>
+				</div>
 			</div>
-		</div>
-		<div id="row-shelf" class="row" style="width: 950px">
-			<script>
-				for(i=0;i<=10;i++){
-					document.write(' <div class="col-xs-4 col-md-2"><a href=""><img src="http://placehold.it/150x190/e8117f/fff&amp;text=Book%20Title" class="img-responsive book"></a></div>');
-					if(i%5==0 && i!=0){
-						document.write('<div class="col-xs-12 shelf"></div>');
+			<div id="row-shelf" class="row" style="width: 950px">
+				<script>
+					for(i=0;i<=10;i++){
+						document.write(' <div class="col-xs-4 col-md-2"><a href=""><img src="http://placehold.it/150x190/e8117f/fff&amp;text=Book%20Title" class="img-responsive book"></a></div>');
+						if(i%5==0 && i!=0){
+							document.write('<div class="col-xs-12 shelf"></div>');
+						}
 					}
-				}
-			</script>
+				</script>
+			</div>
 		</div>
 	</div>
 
