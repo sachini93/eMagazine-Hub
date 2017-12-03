@@ -137,20 +137,10 @@ h6 {
 }
 
 /*
-* Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
-*/
-abbr[title] {
-    border-bottom: 1px dotted
-}
-
-/*
 * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
 */
 b, strong {
     font-weight: bold
-}
-blockquote {
-    margin: 0px
 }
 
 /*
@@ -481,13 +471,29 @@ Buttons
     color: #fff;
     text-decoration: none;
 }
-.learn-btn, .download-btn {
+.learn-btn {
     display: inline-block;
-    padding: 18px 46px;
+    margin: 5px;
+    padding: 8px 25px;
     border: 2px solid #fff;
     border-radius: 3px;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.inquiry-button{
+  color: #73d0da;
+  border: 2px solid #73d0da;
+}
+.download-btn{
+  display: inline-block;
+  margin: 5px;
+  padding: 12px 30px;
+  border: 2px solid #73d0da;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #fff;
 }
 .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
     border-color: #73d0da;
@@ -503,12 +509,7 @@ Buttons
 .read-more-btn i, .download-btn i {
     margin-left: 5px
 }
-.showcase .download-btn {
-    margin-top: 50px
-}
-.download .download-btn {
-    margin-top: 25px
-}
+
 
 /* ==========================================================================
 Navigation
@@ -596,11 +597,11 @@ Hero
 }
 #home {
     width: 100%;
-    height: 200px;
+    height: 310px;
 }
 .hero {
     width: 100%;
-    height: 200px;
+    height: 310px;
 }
 header i {
     margin-left: 5px
@@ -637,22 +638,6 @@ section.video a:hover i, section.video a:focus i {
 }
 
 /* ==========================================================================
-Custom Slider Controls (Flickity)
-========================================================================== */
-.flickity-page-dots .dot {
-    width: 13px;
-    height: 13px;
-    opacity: 1;
-    background: transparent;
-    border: 2px solid white;
-    -webkit-transition: background 0.3s;
-    transition: background 0.3s;
-}
-.flickity-page-dots .dot.is-selected {
-    background: white;
-}
-
-/* ==========================================================================
 Features Slider
 ========================================================================== */
 .features-bg {
@@ -673,21 +658,14 @@ Features Slider
     height: 400px;
     background-color: #3F6184;
 }
-.features-slider ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.features-slider ul li {
-    width: 100%;
-}
-.features-slider li h1 {
+
+.features-slider h1 {
     margin-bottom: 15px;
     color: #fff;
     font-weight: 400;
     font-size: 22px;
 }
-.features-slider li p {
+.features-slider p {
     color: #fff;
     font-size: 14px;
 }
@@ -711,16 +689,23 @@ Features Slider
 Features List
 ========================================================================== */
 .features-list {
-    padding: 130px 0
+    padding: 70px 0
 }
 .features-list h1 {
     margin: 0 0 10px 0;
     padding: 0;
     color: #24374b;
-    font-size: 20px;
+    font-size: 17px;
+}
+
+.contact_heading{
+  color: #24374b;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
 }
 .features-list p {
-    margin-bottom: 20px;
+    margin-bottom: 13px;
     color: #778899;
 }
 .feature-content {
@@ -744,33 +729,6 @@ Features List
     color: #4e9ba3
 }
 
-/* ==========================================================================
-Blockquote
-========================================================================== */
-blockquote {
-    margin: 40px 0 0;
-    padding: 0;
-    border: none;
-}
-blockquote p {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    width: 70%;
-    vertical-align: top;
-    font-style: italic;
-}
-blockquote .avatar {
-    display: inline-block;
-    margin-right: 20px;
-    width: 64px;
-    height: 64px;
-    vertical-align: middle;
-}
-blockquote .logo-quote {
-    display: inline-block;
-    margin: 0 0 0 90px;
-}
 
 /* ==========================================================================
 Showcase
@@ -799,15 +757,31 @@ Showcase
 }
 .device-content {
     position: absolute;
-    top: 115px;
-    left: 56px;
-    width: 247px;
-    height: 445px;
+    top: 110px;
+    left: 54px;
+    right: 0px;
+    width: 250px;
+    height: 447px;
     background: rgba(0, 0, 0, 0.3);
 }
 .device-content img {
     width: 247px;
     height: 445px;
+}
+
+.thumbnail {
+    position:relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.caption h1{
+  font-size: 50px;
 }
 .showcase-wrap {
     position: relative;
@@ -824,111 +798,7 @@ Showcase
 }
 
 /* ==========================================================================
-Screenshots Intro
-========================================================================== */
-.screenshots-intro {
-    padding: 170px 0 100px 0;
-    background-color: #f6f7f9;
-}
-.screenshots-intro h1 {
-    margin-bottom: 20px;
-    color: #24374b;
-    font-weight: 400;
-    font-size: 22px;
-}
-.screenshots-intro p {
-    margin-bottom: 25px;
-    color: #778899;
-}
-
-/* ==========================================================================
-Screenshots
-========================================================================== */
-.screenshots ul {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-.screenshots ul li {
-    float: left;
-    min-height: 100%;
-    width: 25%;
-    background-color: #000;
-    list-style: none;
-}
-.screenshots figure {
-    position: relative;
-    overflow: hidden;
-}
-.screenshots figure img {
-    width: 100%;
-    height: 100%;
-    -webkit-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
-}
-.screenshots figure:hover img, .screenshots figure:focus img {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-.screenshots figcaption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 25% 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(63, 97, 132, 0.85);
-    text-align: center;
-    font-size: 15px;
-    opacity: 0;
-    -webkit-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
-}
-.screenshots figcaption a {
-    color: #fff
-}
-.screenshots figcaption a:hover, .screenshots figcaption a:focus {
-    color: #73d0da
-}
-.screenshots figure:hover figcaption, .screenshots figure:focus figcaption {
-    opacity: 1
-}
-.visible {
-    opacity: 1
-}
-.screenshots figure.cs-hover figcaption {
-    opacity: 1
-}
-.screenshots figcaption i {
-    font-size: 35px
-}
-.screenshots figcaption p {
-    margin-bottom: 0;
-    text-transform: uppercase;
-    font-weight: 400;
-}
-.screenshots figcaption .caption-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -40px;
-    margin-left: -100px;
-    width: 200px;
-    -webkit-transform: translate(0px, 15px);
-    -ms-transform: translate(0px, 15px);
-    transform: translate(0px, 15px);
-    -webkit-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
-}
-.screenshots figure:hover figcaption .caption-content, .screenshots figure:focus figcaption .caption-content {
-    -webkit-transform: translate(0px, 0px);
-    -ms-transform: translate(0px, 0px);
-    transform: translate(0px, 0px);
-}
-
-/* ==========================================================================
-Download Now
+Login
 ========================================================================== */
 .download {
     padding: 120px 0;
@@ -938,8 +808,23 @@ Download Now
     margin: 0 0 15px 0;
     color: #fff;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 30px;
 }
+.form-horizontal{
+  padding-right: 300px;
+  padding-left: 200px;
+}
+
+.submit-btn{
+  color: #6b6666;
+  border: 2px solid #6b6666;
+  float: right;
+}
+
+.register h1{
+  text-align: center;
+}
+
 
 /* ==========================================================================
 Footer

@@ -22,7 +22,6 @@
 		<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 		<link href="css/styles.css" rel="stylesheet">
 		<link href="css/queries.css" rel="stylesheet">
-		<!-- Facebook and Twitter integration -->
 		<meta property="og:title" content=""/>
 		<meta property="og:image" content=""/>
 		<meta property="og:url" content=""/>
@@ -45,98 +44,197 @@
 		<![endif]-->
 		<!-- open/close -->
 		<header>
-			<section class="hero">
+			<section class="hero" id="home">
 				<div class="texture-overlay"></div>
 				<div class="container">
 					<div class="row nav-wrapper">
-						<div class="col-md-3 col-sm-3 col-xs-3 text-left">
-							<h2><i>E MAGAZINE HUB</i></h2>
-						</div>
-						<div class="col-md-7 col-sm-7 col-xs-7 text-right navicon">
-							<a href="http://tympanus.net/codrops/?p=22554" class="use-btn animated fadeInUp">Use it for free</a> <a href="#about" class="learn-btn animated fadeInUp">Learn more <i class="fa fa-arrow-down"></i></a>
-						</div>
-						<div class="col-md-2 col-sm-2 col-xs-2 text-right navicon">
-							<p>MENU</p><a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a>
+						<div class="col-md-12 col-sm-12 col-xs-12 text-right navicon">
+								<a href="#home" class="learn-btn animated fadeInUp">Home <i class="fa fa-arrow-down"></i></a><a href="#about" class="learn-btn animated fadeInUp">About Us <i class="fa fa-arrow-down"></i></a><a href="#contact" class="learn-btn animated fadeInUp">Contact <i class="fa fa-arrow-down"></i></a><a href="#help" class="learn-btn animated fadeInUp">Help <i class="fa fa-arrow-down"></i></a>
 						</div>
 					</div>
-					<div class="row hero-content">
-						<div class="col-md-12">
-							<h1 class="animated fadeInDown">An Exclusive e magazine with extraordinary features..</h1>
+					<div class="row nav-content">
+						<div class="col-md-12 col-sm-12 col-xs-12 text-left">
+							<h1 animated fadeInDown><b>E MAGAZINE HUB</b></h1>
 						</div>
+
 					</div>
 				</div>
 			</section>
 		</header>
-		<section class="video" id="about">
+		<section class="video">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<h1></h1>
+						<div class="well well-sm">
+							<h2>Login to your account.</h2>
+							<a href="#login" class="download-btn animated fadeInUp">Login </i></a>
+							<h1><small>New to E Magazine Hub?</small></h1>
+							<a href="#register" class="download-btn animated fadeInUp">Sign up </i></a>
+					</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="features-intro">
+
+		<section class="download" id="login">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center wp4">
+						<h1>Login to your account!</h1><br>
+
+						<!--Login form-->
+						<form class="form-horizontal" action="" method="post">
+							<!-- Username input-->
+							<div class="form-group">
+								<label class="col-md-3 control-label" for="username">Username</label>
+								<div class="col-md-9">
+									<input id="username" name="username" type="text" placeholder="Username" class="form-control">
+								</div>
+							</div>
+							<!-- Email input-->
+							<div class="form-group">
+								<label class="col-md-3 control-label" for="email">Your E-mail</label>
+								<div class="col-md-9">
+									<input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+								</div>
+							</div>
+							<a href="#" type="submit" class="learn-btn animated fadeInUp" style="float:right;">Submit <i class="fa fa-sign-in"></i></a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="register" id="register">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12"><br><br>
+						<h1>Sign up for free!</h1><br><br>
+
+						<!--Regsitartion form-->
+						<form class="form-horizontal" action="" method="post">
+							<!--Registration type-->
+							<div class="form-group">
+								<label class="col-md-3 control-label" for="type">Registration type</label>
+								<div class="col-md-9">
+									<select class="form-control" id="type">
+										<option value="reader">Reader</option>
+										<option value="publisher">Publisher</option>
+										<option value="both">Both reader and publisher</option>
+									</select>
+								</div>
+							</div>
+							<!-- Name input-->
+							<div class="form-group">
+								<label class="col-md-3 control-label" for="fname">First name</label>
+								<div class="col-md-3">
+									<input id="fname" name="fname" type="text" placeholder="First name" class="form-control">
+								</div>
+								<label class="col-md-3 control-label" for="sname">Second name</label>
+								<div class="col-md-3">
+									<input id="sname" name="sname" type="text" placeholder="Second name" class="form-control">
+								</div>
+							</div>
+							<!-- Email input-->
+							<div class="form-group">
+								<label class="col-md-3 control-label" for="email">Your E-mail</label>
+								<div class="col-md-9">
+									<input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+								</div>
+							</div>
+							<!--Password-->
+							<div class="form-group">
+								<label class="col-md-3 control-label" for="password">Set password</label>
+								<div class="col-md-9">
+									<input id="password" name="password" type="password" placeholder="Password" class="form-control">
+								</div>
+							</div>
+							<!--Confirm password-->
+							<div class="form-group">
+								<label class="col-md-3 control-label" for="confirm-password">Confirm password</label>
+								<div class="col-md-9">
+									<input id="cpassword" name="cpassword" type="password" placeholder="Confirm password" class="form-control">
+								</div>
+							</div>
+							<!--Submit button-->
+							<a href="#" type="submit" class="learn-btn animated fadeInUp submit-btn">Submit <i class="fa fa-sign-in"></i></a><br><br>
+						</form><br><br><br>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="features-intro"  id="about">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-6 nopadding features-intro-img">
 						<div class="features-bg">
 							<div class="texture-overlay"></div>
-							<div class="features-img wp1">
-								<img src="" alt="">
-							</div>
+							<div class="features-img wp1"></div>
 						</div>
 					</div>
 					<div class="col-md-6 nopadding">
 						<div class="features-slider">
-								<ul class="slides" id="featuresSlider">
-									<li></li>
-									<li></li>
-									<li>
-										<h1>Made with Love, Released for Free</h1>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-										<p><a href="http://tympanus.net/codrops/?p=22554" class="arrow-btn">Find out why this freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
-									</li>
-								</ul>
+							<h1>ABOUT US</h1>
+							<p>The E MAGAZINE HUB provides the users with a real life experience as they are reading a book. It gives exposure to magazines of a large range of fields. Users are given opportunity to read and publish articles and magazines.</p>
+							<p>The advertisers are eligible to target the most appropriate audience for their adds with the maximum reach.</p>
+							<p>This magazine is developed by a team of 2 <sup>nd</sup> year undergraduates of University of Colombo for their project.</p>
+							<a href="#" class="read-more-btn"><b>Read More</b> <i class="fa fa-chevron-circle-right"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="features-list" id="features">
+
+
+		<section class="features-list" id="contact">
 			<div class="container">
 				<div class="row">
+					<h1 class="contact_heading">CONTACT US</h1><br>
 					<div class="col-md-12">
-
 						<div class="col-md-4 feature-1 wp2">
 							<div class="feature-icon">
-								<i class="fa fa-desktop"></i>
+								<i class="fa fa-phone"></i>
 							</div>
-							<div class="feature-content"></div>
+							<div class="feature-content">
+								<h1>Telephone :</h1>
+								<p>+94112402453</p>
+								<p>+94332890567</p>
+								<h1>Fax :</h1>
+								<p>+94253450534</p>
+							</div>
 						</div>
 						<div class="col-md-4 feature-2 wp2 delay-05s">
 							<div class="feature-icon">
-								<i class="fa fa-flash"></i>
+								<i class="fa fa-home"></i>
 							</div>
 							<div class="feature-content">
-			</div>
+								<h1>Address  :</h1>
+								<p>No: 248</p>
+								<p>Panchikawaththa road</p>
+								<p>Maradana</p>
+							</div>
 						</div>
 						<div class="col-md-4 feature-3 wp2 delay-1s">
 							<div class="feature-icon">
-								<i class="fa fa-heart"></i>
+								<i class="fa fa-envelope-o"></i>
 							</div>
 							<div class="feature-content">
-								<h1>Absolutely Free</h1>
-								<p>As aways, download Boxify for free exclusively from Codrops. If you love Boxify and want to thank me, simply <a href="#">buy me a beer</a>. </p>
-								<a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
+								<h1>Email  :</h1>
+								<p>emaghub@gmail.com</p>
+								<p>eMagHub@yahoo.com</p><br>
+								<a href="#" class="learn-btn animated fadeInUp inquiry-button">Make Inquiry <i class="fa fa-arrow-down"></i></a>
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="showcase">
+
+
+		<section class="showcase" id="help">
 			<div class="showcase-wrap">
 				<div class="texture-overlay"></div>
 				<div class="container">
@@ -147,7 +245,12 @@
 									<div class="showcase-slider">
 										<ul class="slides" id="showcaseSlider">
 											<li>
-												<img src="img/screen1.jpg" alt="Device Content Image">
+												<div class="thumbnail text-center">
+											  	<img src="img/screen4.jpg" class="img-responsive" alt="Device Content Image">
+											    <div class="caption">
+											    	<h1>HELP</h1>
+											    </div>
+											  </div>
 											</li>
 											<li>
 												<img src="img/screen2.jpg" alt="Device Content Image">
@@ -161,167 +264,28 @@
 							</div>
 						</div>
 						<div class="col-md-6">
-							<h1>Showcase your Product or Service</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-							<blockquote class="team-quote">
-								<div class="avatar"><img src="img/avatar.png" alt="User Avatar"></div>
-								<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc." - Steve Jobs</p>
-								<div class="logo-quote">
-									<a href="http://tympanus.net/codrops/"><img src="img/codrops-logo.png" alt="Codrops Logo"></a>
-								</div>
-							</blockquote>
-							<a href="http://tympanus.net/codrops/?p=22554" class="download-btn">Download! <i class="fa fa-download"></i></a>
+							<h1>FAQ</h1>
+							<p>Q:	  Do I need an internet connection to read my digital magazine?</p>
+							<p>A: 	You will need to be on-line to download or stream the issue. However, once downloaded, you will be able to read your magazine offline. Just tap the ‘READ’/‘VIEW’ button.</p>
+							<p>Q:   How do I submit a letter to the editor?</p>
+							<p>A:		The E Magazine Hub welcomes letters from its readers. Please use the form on the Contact Us page to submit mail for our Letters column or mail your letter to the address above. For your letter to be considered, you must include your phone number and postal address.</p>
+							<p>Q:		Which web browser is suitable for viewing the website?</p>
+							<p>A:   Our site is designed to be fully supported by recent versions of Chrome, Safari, and Firefox, as well as Internet Explorer 11 and Edge.</p>
+							<a href="#" class="read-more-btn"><b>Read More</b> <i class="fa fa-chevron-circle-right"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="screenshots-intro">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h1>Packed Full of Powerful Features</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-						<p><a href="#screenshots" class="arrow-btn">See the screenshots! <i class="fa fa-long-arrow-right"></i></a></p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="screenshots" id="screenshots">
-			<div class="container-fluid">
-				<div class="row">
-					<ul class="grid">
-						<li>
-							<figure>
-								<img src="img/01-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/01.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p>Optimised For Design</p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="img/02-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/02.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p>User Centric Design</p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="img/03-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/03.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p>Responsive and Adaptive</p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="img/04-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/04.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p>Absolutely Free</p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-					</ul>
-				</div>
-				<div class="row">
-					<ul class="grid">
-						<li>
-							<figure>
-								<img src="img/05-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/05.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p>Multi-Purpose Design</p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="img/06-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/06.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p>Exclusive to Codrops</p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="img/07-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/07.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p>Made with Love</p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="img/08-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/08.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p>In Sydney, Australia</p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-		<section class="download" id="download">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center wp4">
-						<h1>Seen Enough?</h1>
-						<a href="http://tympanus.net/codrops/?p=22554" class="download-btn">Download! <i class="fa fa-download"></i></a>
-					</div>
-				</div>
-			</div>
-		</section>
 		<footer>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5">
 						<h1 class="footer-logo">
-						<img src="img/logo-blue.png" alt="Footer Logo Blue">
+						<img src="" alt="">
 						</h1>
-						<p>A free website template created exclusively for <a href="http://tympanus.net/codrops/"><em>Codrops</em></a></p>
+						<p>Copyright at University of Colombo. All rights reserved.</p>
 					</div>
 					<div class="col-md-7">
 						<ul class="footer-nav">
@@ -334,6 +298,8 @@
 				</div>
 			</div>
 		</footer>
+
+
 		<div class="overlay overlay-boxify">
 			<nav>
 				<ul>
@@ -346,7 +312,7 @@
 				</ul>
 			</nav>
 		</div>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
 		<script src="js/min/toucheffects-min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/flickity.pkgd.min.js"></script>
