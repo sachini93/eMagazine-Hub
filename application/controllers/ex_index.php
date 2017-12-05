@@ -16,6 +16,9 @@ class ex_index extends CI_Controller
 		$this->load->helper('url');
 		$this->load->view('header/header_reader_publisher');
 		$this->load->view('body/body_reader');
+		$this->load->view('rating/index.html');
+//		$this->load->view('rating/feedback/feedback.html');
+
 //		$this->load->library('view_lib');
 //		$this->view_lib->load_view('header/header_reader_publisher','body/body_reader');
 	}

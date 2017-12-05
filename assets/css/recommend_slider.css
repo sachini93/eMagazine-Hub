@@ -1,0 +1,11 @@
+.carousel-item img {
+	width: 100%;
+	height: 270px;
+}
+img.d-block.w-100{
+	height: 270px;
+}
+
+.d-block w-100{
+	height: 400px;
+}

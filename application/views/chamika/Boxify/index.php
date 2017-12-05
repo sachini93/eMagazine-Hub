@@ -4,112 +4,118 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <html lang="en" class="no-js">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>E Magazine Hub</title>
-		<meta name="description" content="E magazine hub" />
-		<meta name="keywords" content="e magazine hub , e magazine" />
-		<meta name="author" content="" />
-		<!-- Bootstrap -->
-		<script src="js/modernizr.custom.js"></script>
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/jquery.fancybox.css" rel="stylesheet">
-		<link href="css/flickity.css" rel="stylesheet" >
-		<link href="css/animate.css" rel="stylesheet">
-		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
-		<link href="css/styles.css" rel="stylesheet">
-		<link href="css/queries.css" rel="stylesheet">
-		<meta property="og:title" content=""/>
-		<meta property="og:image" content=""/>
-		<meta property="og:url" content=""/>
-		<meta property="og:site_name" content=""/>
-		<meta property="og:description" content=""/>
-		<meta name="twitter:title" content="" />
-		<meta name="twitter:image" content="" />
-		<meta name="twitter:url" content="" />
-		<meta name="twitter:card" content="" />
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-	</head>
-	<body>
-		<!--[if lt IE 7]>
-		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
-		<!-- open/close -->
-		<header>
-			<section class="hero" id="home">
-				<div class="texture-overlay"></div>
-				<div class="container">
-					<div class="row nav-wrapper">
-						<div class="col-md-12 col-sm-12 col-xs-12 text-right navicon">
-								<a href="#home" class="learn-btn animated fadeInUp">Home <i class="fa fa-arrow-down"></i></a><a href="#about" class="learn-btn animated fadeInUp">About Us <i class="fa fa-arrow-down"></i></a><a href="#contact" class="learn-btn animated fadeInUp">Contact <i class="fa fa-arrow-down"></i></a><a href="#help" class="learn-btn animated fadeInUp">Help <i class="fa fa-arrow-down"></i></a>
-						</div>
-					</div>
-					<div class="row nav-content">
-						<div class="col-md-12 col-sm-12 col-xs-12 text-left">
-							<h1 animated fadeInDown><b>FLIP-MAG HUB</b></h1>
-						</div>
-
-					</div>
-				</div>
-			</section>
-		</header>
-		<section class="video">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<div class="well well-sm" style="background-color: #0c5460">
-							<h2 style="color: snow">Login to your account.</h2>
-							<a href="#login" class="download-btn animated fadeInUp">Login </i></a>
-							<h1><small>New to E Magazine Hub?</small></h1>
-							<a href="#register" class="download-btn animated fadeInUp">Sign up </i></a>
-
-
-					</div>
-					</div>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E Magazine Hub</title>
+	<meta name="description" content="E magazine hub" />
+	<meta name="keywords" content="e magazine hub , e magazine" />
+	<meta name="author" content="" />
+	<!-- Bootstrap -->
+	<script src="js/modernizr.custom.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/jquery.fancybox.css" rel="stylesheet">
+	<link href="css/flickity.css" rel="stylesheet" >
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/queries.css" rel="stylesheet">
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<!-- open/close -->
+<header>
+	<section class="hero" id="home">
+		<div class="texture-overlay"></div>
+		<div class="container">
+			<div class="row nav-wrapper">
+				<div class="col-md-12 col-sm-12 col-xs-12 text-right navicon">
+					<a href="#home" class="learn-btn animated fadeInUp">Home <i class="fa fa-arrow-down"></i></a><a href="#about" class="learn-btn animated fadeInUp">About Us <i class="fa fa-arrow-down"></i></a><a href="#contact" class="learn-btn animated fadeInUp">Contact <i class="fa fa-arrow-down"></i></a><a href="#help" class="learn-btn animated fadeInUp">Help <i class="fa fa-arrow-down"></i></a>
 				</div>
 			</div>
-		</section>
+			<div class="row nav-content">
+				<div class="col-md-12 col-sm-12 col-xs-12 text-left">
+					<h1 animated fadeInDown><b>E MAGAZINE HUB</b></h1>
+				</div>
 
-		<section class="download" id="login">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center wp4">
-						<h1>Login to your account!</h1><br>
+			</div>
+		</div>
+	</section>
+</header>
+<section class="video">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="well well-sm">
+					<h2>Login to your account.</h2>
+					<a href="#login" class="download-btn animated fadeInUp">Login </i></a>
+					<h1><small>New to E Magazine Hub?</small></h1>
+					<a href="#register" class="download-btn animated fadeInUp">Sign up </i></a>
 
-						<!--Login form-->
-						<form class="form-horizontal" action="" method="post">
-							<!-- Username input-->
-							<div class="form-group">
-								<label class="col-md-3 control-label" for="username">Username</label>
-								<div class="col-md-9">
-									<input id="username" name="username" type="text" placeholder="Username" class="form-control">
-								</div>
-							</div>
-							<!-- Email input-->
-							<div class="form-group">
-								<label class="col-md-3 control-label" for="email">Your E-mail</label>
-								<div class="col-md-9">
-									<input id="pwd" name="password" type="text" placeholder="Your password" class="form-control">
-								</div>
-							</div>
-							<a href="#"  name="submit"type="submit" class="learn-btn animated fadeInUp" style="float:right;">Submit <i class="fa fa-sign-in"></i></a>
-						</form>
-						<?php
-						 require 'base_url(uri:'db/connection/dbcon.php');
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="download" id="login">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center wp4">
+				<h1>Login to your account!</h1><br>
+
+				<!--Login form-->
+				<form class="form-horizontal" action="" method="post">
+					<!-- Username input-->
+					<div class="form-group">
+						<label class="col-md-3 control-label" for="username">Username</label>
+						<div class="col-md-9">
+							<input id="username" name="username" type="text" placeholder="Username" class="form-control">
+						</div>
+					</div>
+					<!-- Email input-->
+					<div class="form-group">
+						<label class="col-md-3 control-label" for="email">Your E-mail</label>
+						<div class="col-md-9">
+							<input id="password" name="password" type="text" placeholder="Your password" class="form-control">
+						</div>
+					</div>
+
+					<a href="<?php echo base_url('')?>"  name="submit"type="submit" class="learn-btn animated fadeInUp" style="float:right;">Submit <i class="fa fa-sign-in"></i></a>
+
+					<script>
+
+					</script>
+
+				</form>
+<?php
+require base_url('db/connection/dbcon.php');
 
 
 							if(isset($_POST['submit'])){
 								$uname=$_POST['username'];
 								$password=$_POST['password'];
-								 $sql ="SELECT * FROM customer_table WHERE nic='$nic'";
+								 $sql ="SELECT * FROM user WHERE uname='$uname'";
 								$resl=mysqli_query($con,$sql);
 								//if(!$res1){
 									//echo mysqli_error($con);
@@ -347,11 +353,11 @@
 		<script src="js/min/scripts-min.js"></script>
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<script>
-		(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-		function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-		e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-		e.src='//www.google-analytics.com/analytics.js';
-		r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+	function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+	e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+	e.src='//www.google-analytics.com/analytics.js';
+	r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 		ga('create','UA-XXXXX-X');ga('send','pageview');
 		</script>
 	</body>

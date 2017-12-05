@@ -1,5 +1,5 @@
 #header.container-fluid{
-	background-color: #999999;
+	background-color:  #006080;
 	margin-left: 0px;
 	margin-right: 10px;
 	padding-top: 5px;
@@ -9,3 +9,9 @@
 #header-nav.row{
 
 }
+
+#logo{
+	width:90px;
+	height: 80px;
+}
+

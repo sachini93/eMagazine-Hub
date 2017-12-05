@@ -1,14 +1,16 @@
+
 <!--/**-->
 <!-- * Created by IntelliJ IDEA.-->
 <!-- * User: Sachini-->
-<!-- * Date: 11/28/2017-->
-<!-- * Time: 7:05 PM-->
+<!-- * Date: 12/3/2017-->
+<!-- * Time: 4:12 PM-->
 <!-- */-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Profile</title>
+	<meta charset="UTF-8">
+	<title>Profile</title>
 	<script src="<?php echo base_url('assets/js/jquery.min.js')?>" type="text/javascript"></script>
 
 	<link href="<?php echo base_url('assets/css/styles_header.css');?>" rel="stylesheet">
@@ -21,6 +23,23 @@
 	<script src="<?php echo base_url('assets/js/bootstrap.bundle.js')?>" type="text/javascript"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/screenfull.js/3.3.2/screenfull.js"></script>
 	<script src="<?php echo base_url('assets/turnjs4/lib/turn.js"')?>" type="text/javascript"></script>
+
+<style>
+	#main-div{
+		height: 900px;
+		background-image: url("https://www.aje.com/en/arc/dist/img/arc/Write-research-grant-get-funded.f84e744f.jpg");
+		background-size: cover;
+	}
+	#nav-tab{
+		margin: 50px;
+		width:100%;
+		height: 100%;
+
+	}
+
+
+</style>
+
 
 
 	<div id="header" class="container-fluid">
@@ -64,7 +83,28 @@
 		</div>
 	</div>
 </head>
+
 <body>
+
+<div id="main-div" class="container-fluid">
+
+	<div id="nav-tab" class="row content">
+		<div class="col-lg-3">
+			<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+				<a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="" role="tab" aria-controls="v-pills-home" aria-selected="true" onclick="window.open(<?php echo base_url('NewArticle.html')?>)">Edit Profile</a>
+				<a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Add Magazine</a>
+				<a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Add Article</a>
+				<a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Delete Article</a>
+			</div>
+
+		</div>
+		<script>
+
+		</script>
+
+</div>
+
 
 </body>
 </html>
+
